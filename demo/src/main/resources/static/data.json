@@ -1,0 +1,5598 @@
+const params = {
+    "data": {
+        "trafficPrsp": [
+            {
+                "usul_ref_end_date": "20231217",
+                "lsttm_altr_dttm": 1703724393000,
+                "trfc_prsp_dates": "20240101",
+                "usul_ref_start_date": "20231120",
+                "fsttm_rgst_dttm": 1702516228000,
+                "trfc_prsp_ctnt02": "o (지방방향) 03~04시 시작, 06~07시 최대, 08~09시 해소\no (서울방향) 08~09시 시작, 16~17시 최대, 익일01~02시 해소\n   ※ 정체시작 및 해소는 주요 5대노선 기준\n   ※ 당일 교통상황에 따라 변동될 수 있으며, 노선마다 차이 있음",
+                "last_year_ref_dates": "20230102",
+                "usul_prhs_rgst_detl_dates": "20231211051244",
+                "fsttm_rgsr_id": "20414715",
+                "last_week_ref_dates": "20230101",
+                "trfc_prsp_istc": "교통전망(1월1일,월요일)",
+                "dy": "월",
+                "trfc_prsp_ctnt01": "o 전국 456만대, 수도권에서 지방으로 37만대, 지방에서 수도권으로\n   39만대 예상\no 3일 연휴 마지막날로 영동선, 서울양양선 서울방향으로 매우 혼잡\no 지방방향 새벽 강원권 일부구간 정체, 서울방향은 오후 매우 혼잡",
+                "lsttm_modfr_id": "20414715"
+            }
+        ],
+        "lastYearJibangDelayLegnth": [
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0200"
+            },
+            {
+                "clength": 1.4,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0300"
+            },
+            {
+                "clength": 1.4,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0400"
+            },
+            {
+                "clength": 5.495,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0500"
+            },
+            {
+                "clength": 10.315,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0600"
+            },
+            {
+                "clength": 59.765,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0700"
+            },
+            {
+                "clength": 61.92,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0800"
+            },
+            {
+                "clength": 32.09,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "0900"
+            },
+            {
+                "clength": 19.205,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1000"
+            },
+            {
+                "clength": 16.54,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1100"
+            },
+            {
+                "clength": 13.2,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1200"
+            },
+            {
+                "clength": 2.3,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1300"
+            },
+            {
+                "clength": 4.5,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1400"
+            },
+            {
+                "clength": 4.665,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1500"
+            },
+            {
+                "clength": 13.815,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1600"
+            },
+            {
+                "clength": 17.6,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1700"
+            },
+            {
+                "clength": 24.055,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1800"
+            },
+            {
+                "clength": 24.48,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "1900"
+            },
+            {
+                "clength": 1.3,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "2000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "2100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20230102",
+                "stime": "2300"
+            }
+        ],
+        "refUsulCngsPerHourJibang": [
+            {
+                "avg_max_cngs_lngt": 4.63,
+                "stndd_hh": "00",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.43,
+                "stndd_hh": "01",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.1,
+                "stndd_hh": "02",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.98,
+                "stndd_hh": "03",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.55,
+                "stndd_hh": "04",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 24.95,
+                "stndd_hh": "05",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 82.18,
+                "stndd_hh": "06",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 130.5,
+                "stndd_hh": "07",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 140.1,
+                "stndd_hh": "08",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 97.48,
+                "stndd_hh": "09",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 67.8,
+                "stndd_hh": "10",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 63.55,
+                "stndd_hh": "11",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 51.3,
+                "stndd_hh": "12",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 27.25,
+                "stndd_hh": "13",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 20.18,
+                "stndd_hh": "14",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 27.98,
+                "stndd_hh": "15",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 28.18,
+                "stndd_hh": "16",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 60.45,
+                "stndd_hh": "17",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 67.18,
+                "stndd_hh": "18",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 56.75,
+                "stndd_hh": "19",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 10.33,
+                "stndd_hh": "20",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.23,
+                "stndd_hh": "21",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.63,
+                "stndd_hh": "22",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.1,
+                "stndd_hh": "23",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            }
+        ],
+        "delaylengthSumJibang": [
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0200"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0300"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0400"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0500"
+            },
+            {
+                "clength": 16.5,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0600"
+            },
+            {
+                "clength": 6.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0700"
+            },
+            {
+                "clength": 7.8,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0800"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0900"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1000"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1100"
+            },
+            {
+                "clength": 11.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1200"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1300"
+            },
+            {
+                "clength": 7.1,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1400"
+            },
+            {
+                "clength": 11.6,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1500"
+            },
+            {
+                "clength": 14.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1600"
+            },
+            {
+                "clength": 11.8,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1700"
+            },
+            {
+                "clength": 1.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1800"
+            },
+            {
+                "clength": 1.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1900"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2300"
+            }
+        ],
+        "CODE": "S",
+        "refUsulCngsPerHour": [
+            {
+                "avg_max_cngs_lngt": 4.63,
+                "stndd_hh": "00",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.43,
+                "stndd_hh": "01",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.1,
+                "stndd_hh": "02",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.98,
+                "stndd_hh": "03",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 1.55,
+                "stndd_hh": "04",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 24.95,
+                "stndd_hh": "05",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 82.18,
+                "stndd_hh": "06",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 130.5,
+                "stndd_hh": "07",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 140.1,
+                "stndd_hh": "08",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 97.48,
+                "stndd_hh": "09",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 67.8,
+                "stndd_hh": "10",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 63.55,
+                "stndd_hh": "11",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 51.3,
+                "stndd_hh": "12",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 27.25,
+                "stndd_hh": "13",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 20.18,
+                "stndd_hh": "14",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 27.98,
+                "stndd_hh": "15",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 28.18,
+                "stndd_hh": "16",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 60.45,
+                "stndd_hh": "17",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 67.18,
+                "stndd_hh": "18",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 56.75,
+                "stndd_hh": "19",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 10.33,
+                "stndd_hh": "20",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.23,
+                "stndd_hh": "21",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.63,
+                "stndd_hh": "22",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 2.1,
+                "stndd_hh": "23",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "0"
+            },
+            {
+                "avg_max_cngs_lngt": 6.88,
+                "stndd_hh": "00",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 2.33,
+                "stndd_hh": "01",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 1.6,
+                "stndd_hh": "02",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 0,
+                "stndd_hh": "03",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 2.03,
+                "stndd_hh": "04",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 11.78,
+                "stndd_hh": "05",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 50.75,
+                "stndd_hh": "06",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 102.8,
+                "stndd_hh": "07",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 113.5,
+                "stndd_hh": "08",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 83.78,
+                "stndd_hh": "09",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 54.53,
+                "stndd_hh": "10",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 46.18,
+                "stndd_hh": "11",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 35.33,
+                "stndd_hh": "12",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 34.4,
+                "stndd_hh": "13",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 50.4,
+                "stndd_hh": "14",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 61.43,
+                "stndd_hh": "15",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 85.38,
+                "stndd_hh": "16",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 110.75,
+                "stndd_hh": "17",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 110.03,
+                "stndd_hh": "18",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 75.55,
+                "stndd_hh": "19",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 18.13,
+                "stndd_hh": "20",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 5.03,
+                "stndd_hh": "21",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 6.15,
+                "stndd_hh": "22",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 7.3,
+                "stndd_hh": "23",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            }
+        ],
+        "lastYearSeoulDelayLegnth": [
+            {
+                "clength": 11.195,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0000"
+            },
+            {
+                "clength": 2.34,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0300"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0400"
+            },
+            {
+                "clength": 1.5,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0500"
+            },
+            {
+                "clength": 34.415,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0600"
+            },
+            {
+                "clength": 70.585,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0700"
+            },
+            {
+                "clength": 75.05,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0800"
+            },
+            {
+                "clength": 55.86,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "0900"
+            },
+            {
+                "clength": 39.61,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1000"
+            },
+            {
+                "clength": 17.16,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1100"
+            },
+            {
+                "clength": 11.88,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1200"
+            },
+            {
+                "clength": 12.155,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1300"
+            },
+            {
+                "clength": 9.92,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1400"
+            },
+            {
+                "clength": 18.595,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1500"
+            },
+            {
+                "clength": 28.44,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1600"
+            },
+            {
+                "clength": 34.625,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1700"
+            },
+            {
+                "clength": 27.385,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1800"
+            },
+            {
+                "clength": 24.575,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "1900"
+            },
+            {
+                "clength": 5.735,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "2000"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "2100"
+            },
+            {
+                "clength": 2.4,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20230102",
+                "stime": "2300"
+            }
+        ],
+        "delayLengthListJibang": [
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0000",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0100",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0200",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0300",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0400",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0500",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0600",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0700",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0800",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0900",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1000",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1100",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1200",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1300",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1400",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1500",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1600",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1700",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1800",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1900",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2000",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2100",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2200",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "부산,경부선",
+                "ud_type": "S",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2300",
+                "dir_name": "부산"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0000",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0100",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0200",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0300",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 8.8,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0400",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 8.8,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0500",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 9.6,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0600",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 6.9,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0700",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0800",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0900",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1000",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1100",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1200",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1300",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1400",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1500",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1600",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1700",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1800",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1900",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2000",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2100",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2200",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "강릉,영동선",
+                "ud_type": "E",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2300",
+                "dir_name": "강릉"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0000",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0100",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0200",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0300",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0400",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0500",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0600",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0700",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0800",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0900",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1000",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1100",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1200",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1300",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1400",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1500",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1600",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1700",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1800",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1900",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2000",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2100",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2200",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "목포,서해안선",
+                "ud_type": "S",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2300",
+                "dir_name": "목포"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0000",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0100",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0200",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0300",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0400",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0500",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0600",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0700",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0800",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0900",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1000",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1100",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1200",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1300",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1400",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1500",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1600",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1700",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1800",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1900",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2000",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2100",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2200",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "남이,중부선",
+                "ud_type": "S",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2300",
+                "dir_name": "남이"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0000",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0100",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0200",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0300",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 2.4,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0400",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 2.4,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0500",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 6.9,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0600",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0700",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0800",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0900",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1000",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1100",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1200",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1300",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1400",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1500",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1600",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1700",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1800",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1900",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2000",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2100",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2200",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "양양,서울양양선",
+                "ud_type": "E",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2300",
+                "dir_name": "양양"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0000",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0100",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0200",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0300",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0400",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0500",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0600",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0700",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0800",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0900",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1000",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1100",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1200",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1300",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 3.1,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1400",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 1.5,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1500",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 4.6,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1600",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 3.1,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1700",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1800",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1900",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2000",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2100",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2200",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "ttname": "판교-일산-구리,수도권제1순환선",
+                "ud_type": "S",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2300",
+                "dir_name": "판교-일산-구리"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0000",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0100",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0200",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0300",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0400",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0500",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 16.5,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0600",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 6.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0700",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0800",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0900",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1000",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1100",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1200",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1300",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1400",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1500",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1600",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1700",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1800",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1900",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2000",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2100",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2200",
+                "dir_name": "지방"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2300",
+                "dir_name": "지방"
+            }
+        ],
+        "delayLengthListSeoul": [
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "0900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 2.9,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "1900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,경부선",
+                "ud_type": "E",
+                "lseq": 10,
+                "sdate": "20240101",
+                "line_name": "경부선",
+                "line_code": "0010",
+                "stime": "2300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0000",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0100",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0200",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0300",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0400",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0500",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0600",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0700",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0800",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 6,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "0900",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 22.1,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1000",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 26.1,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1100",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 38.1,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1200",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 34.2,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1300",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 39.4,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1400",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 37.6,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1500",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 42.8,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1600",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 40.6,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1700",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 39.8,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1800",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 14.4,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "1900",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 11.3,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2000",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 5.6,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2100",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 5.6,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2200",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "인천,영동선",
+                "ud_type": "S",
+                "lseq": 20,
+                "sdate": "20240101",
+                "line_name": "영동선",
+                "line_code": "0500",
+                "stime": "2300",
+                "dir_name": "인천"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "0900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 3.1,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 11.3,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 11.3,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 14.9,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 14.9,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 13.8,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 13.8,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 13.8,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 9.9,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 3.6,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "1900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서해안선",
+                "ud_type": "E",
+                "lseq": 30,
+                "sdate": "20240101",
+                "line_name": "서해안선",
+                "line_code": "0150",
+                "stime": "2300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0000",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0100",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0200",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0300",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0400",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0500",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0600",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0700",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0800",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "0900",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1000",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1100",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1200",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1300",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 4.9,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1400",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1500",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 7.4,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1600",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 5.4,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1700",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1800",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 5.4,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "1900",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2000",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2100",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2200",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "하남,중부선",
+                "ud_type": "E",
+                "lseq": 40,
+                "sdate": "20240101",
+                "line_name": "중부선",
+                "line_code": "0352",
+                "stime": "2300",
+                "dir_name": "하남"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 2.3,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "0900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 8.6,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 12.1,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 16.7,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 16.7,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 21.1,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 21.1,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 37,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 30.8,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 28.5,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 12.6,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "1900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 8.1,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 3.5,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "서울,서울양양선",
+                "ud_type": "S",
+                "lseq": 45,
+                "sdate": "20240101",
+                "line_name": "서울양양선",
+                "line_code": "0600",
+                "stime": "2300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0000",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0100",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0200",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0300",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0400",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0500",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0600",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0700",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0800",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "0900",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1000",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1100",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1200",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1300",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1400",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1500",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1600",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1700",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 1.1,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1800",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "1900",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2000",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2100",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2200",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "ttname": "판교-구리-일산,수도권제1순환선",
+                "ud_type": "E",
+                "lseq": 280,
+                "sdate": "20240101",
+                "line_name": "수도권제1순환선",
+                "line_code": "1000",
+                "stime": "2300",
+                "dir_name": "판교-구리-일산"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 8.3,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "0900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 33.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 49.5,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 61.5,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 62.2,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1300",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 75.9,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1400",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 72.5,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1500",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 101,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1600",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 88.3,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1700",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 75.2,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1800",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 36,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "1900",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 19.4,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2000",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 9.1,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2100",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 5.6,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2200",
+                "dir_name": "서울"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "line_name": "5대노선",
+                "stime": "2300",
+                "dir_name": "서울"
+            }
+        ],
+        "delayLengthSummary": [
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0200"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0300"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0400"
+            },
+            {
+                "clength": 11.2,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0500"
+            },
+            {
+                "clength": 16.5,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0600"
+            },
+            {
+                "clength": 6.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0700"
+            },
+            {
+                "clength": 7.8,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0800"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "0900"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1000"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1100"
+            },
+            {
+                "clength": 11.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1200"
+            },
+            {
+                "clength": 9.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1300"
+            },
+            {
+                "clength": 7.1,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1400"
+            },
+            {
+                "clength": 11.6,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1500"
+            },
+            {
+                "clength": 14.7,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1600"
+            },
+            {
+                "clength": 11.8,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1700"
+            },
+            {
+                "clength": 1.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1800"
+            },
+            {
+                "clength": 1.9,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "1900"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2000"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2100"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "지방",
+                "sdate": "20240101",
+                "stime": "2300"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0000"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0300"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0400"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0500"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0600"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0700"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0800"
+            },
+            {
+                "clength": 12.2,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0900"
+            },
+            {
+                "clength": 33.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1000"
+            },
+            {
+                "clength": 53.4,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1100"
+            },
+            {
+                "clength": 63.5,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1200"
+            },
+            {
+                "clength": 63.3,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1300"
+            },
+            {
+                "clength": 91,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1400"
+            },
+            {
+                "clength": 125.6,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1500"
+            },
+            {
+                "clength": 135.1,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1600"
+            },
+            {
+                "clength": 117.7,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1700"
+            },
+            {
+                "clength": 104.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1800"
+            },
+            {
+                "clength": 51.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1900"
+            },
+            {
+                "clength": 19.4,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2000"
+            },
+            {
+                "clength": 9.1,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2100"
+            },
+            {
+                "clength": 5.6,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2300"
+            }
+        ],
+        "refDateTraffic": [
+            {
+                "date_type": 1,
+                "pre_suin_7_cnt": 37,
+                "p_date": "20240101",
+                "pre_suout_7_cnt": 39,
+                "pre_dday_cnt": 456
+            },
+            {
+                "date_type": 2,
+                "pre_suin_7_cnt": 40,
+                "p_date": "20230102",
+                "pre_suout_7_cnt": 39,
+                "pre_dday_cnt": 443
+            },
+            {
+                "date_type": 3,
+                "pre_suin_7_cnt": 36,
+                "p_date": "20230101",
+                "pre_suout_7_cnt": 37,
+                "pre_dday_cnt": 421
+            }
+        ],
+        "refUsulCngsPerHourSeoul": [
+            {
+                "avg_max_cngs_lngt": 6.88,
+                "stndd_hh": "00",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 2.33,
+                "stndd_hh": "01",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 1.6,
+                "stndd_hh": "02",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 0,
+                "stndd_hh": "03",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 2.03,
+                "stndd_hh": "04",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 11.78,
+                "stndd_hh": "05",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 50.75,
+                "stndd_hh": "06",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 102.8,
+                "stndd_hh": "07",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 113.5,
+                "stndd_hh": "08",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 83.78,
+                "stndd_hh": "09",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 54.53,
+                "stndd_hh": "10",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 46.18,
+                "stndd_hh": "11",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 35.33,
+                "stndd_hh": "12",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 34.4,
+                "stndd_hh": "13",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 50.4,
+                "stndd_hh": "14",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 61.43,
+                "stndd_hh": "15",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 85.38,
+                "stndd_hh": "16",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 110.75,
+                "stndd_hh": "17",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 110.03,
+                "stndd_hh": "18",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 75.55,
+                "stndd_hh": "19",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 18.13,
+                "stndd_hh": "20",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 5.03,
+                "stndd_hh": "21",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 6.15,
+                "stndd_hh": "22",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            },
+            {
+                "avg_max_cngs_lngt": 7.3,
+                "stndd_hh": "23",
+                "dywk_cd": "1",
+                "rgst_detl_dates": "20231211051244",
+                "drct_clss_cd": "1"
+            }
+        ],           
+        "trfcPrspMaxTime": [
+            {
+                "ord": 1,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 108,
+                "end_upso_code": "115"
+            },
+            {
+                "ord": 2,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 270,
+                "end_upso_code": "140"
+            },
+            {
+                "ord": 3,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 200,
+                "end_upso_code": "167"
+            },
+            {
+                "ord": 4,
+                "start_upso_code": "253",
+                "direction": "지방",
+                "ttime": 221,
+                "end_upso_code": "509"
+            },
+            {
+                "ord": 5,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 210,
+                "end_upso_code": "189"
+            },
+            {
+                "ord": 6,
+                "start_upso_code": "651",
+                "direction": "지방",
+                "ttime": 159,
+                "end_upso_code": "510"
+            },
+            {
+                "ord": 7,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 210,
+                "end_upso_code": "622"
+            },
+            {
+                "ord": 8,
+                "start_upso_code": "101",
+                "direction": "지방",
+                "ttime": 268,
+                "end_upso_code": "641"
+            },
+            {
+                "ord": 9,
+                "start_upso_code": "115",
+                "direction": "지방",
+                "ttime": 160,
+                "end_upso_code": "101"
+            },
+            {
+                "ord": 10,
+                "start_upso_code": "140",
+                "direction": "서울",
+                "ttime": 390,
+                "end_upso_code": "101"
+            },
+            {
+                "ord": 11,
+                "start_upso_code": "167",
+                "direction": "서울",
+                "ttime": 280,
+                "end_upso_code": "101"
+            },
+            {
+                "ord": 12,
+                "start_upso_code": "509",
+                "direction": "서울",
+                "ttime": 300,
+                "end_upso_code": "253"
+            },
+            {
+                "ord": 13,
+                "start_upso_code": "189",
+                "direction": "서울",
+                "ttime": 380,
+                "end_upso_code": "101"
+            },
+            {
+                "ord": 14,
+                "start_upso_code": "510",
+                "direction": "서울",
+                "ttime": 320,
+                "end_upso_code": "651"
+            },
+            {
+                "ord": 15,
+                "start_upso_code": "622",
+                "direction": "서울",
+                "ttime": 330,
+                "end_upso_code": "101"
+            },
+            {
+                "ord": 16,
+                "start_upso_code": "641",
+                "direction": "서울",
+                "ttime": 360,
+                "end_upso_code": "101"
+            }
+        ],
+        "delaylengthSumSeoul": [
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0000"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0100"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0300"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0400"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0500"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0600"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0700"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0800"
+            },
+            {
+                "clength": 12.2,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "0900"
+            },
+            {
+                "clength": 33.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1000"
+            },
+            {
+                "clength": 53.4,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1100"
+            },
+            {
+                "clength": 63.5,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1200"
+            },
+            {
+                "clength": 63.3,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1300"
+            },
+            {
+                "clength": 91,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1400"
+            },
+            {
+                "clength": 125.6,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1500"
+            },
+            {
+                "clength": 135.1,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1600"
+            },
+            {
+                "clength": 117.7,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1700"
+            },
+            {
+                "clength": 104.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1800"
+            },
+            {
+                "clength": 51.8,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "1900"
+            },
+            {
+                "clength": 19.4,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2000"
+            },
+            {
+                "clength": 9.1,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2100"
+            },
+            {
+                "clength": 5.6,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2200"
+            },
+            {
+                "clength": 0,
+                "direction": "서울",
+                "sdate": "20240101",
+                "stime": "2300"
+            }
+        ],
+        "refUsulTraffic": [
+            {
+                "rgst_detl_dates": "20231211051244",
+                "su_seoul": 41,
+                "su_jibang": 42,
+                "p_ordnum": 1,
+                "p_dd": "월",
+                "total_traffic": 492
+            },
+            {
+                "rgst_detl_dates": "20231211051244",
+                "su_seoul": 42,
+                "su_jibang": 42,
+                "p_ordnum": 2,
+                "p_dd": "화/수/목",
+                "total_traffic": 496
+            },
+            {
+                "rgst_detl_dates": "20231211051244",
+                "su_seoul": 45,
+                "su_jibang": 45,
+                "p_ordnum": 3,
+                "p_dd": "금",
+                "total_traffic": 531
+            },
+            {
+                "rgst_detl_dates": "20231211051244",
+                "su_seoul": 43,
+                "su_jibang": 44,
+                "p_ordnum": 4,
+                "p_dd": "토",
+                "total_traffic": 502
+            },
+            {
+                "rgst_detl_dates": "20231211051244",
+                "su_seoul": 39,
+                "su_jibang": 38,
+                "p_ordnum": 5,
+                "p_dd": "일",
+                "total_traffic": 434
+            }
+        ]
+    }
+}
